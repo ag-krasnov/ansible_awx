@@ -3,4 +3,5 @@
   register: result
   
 - name: debug 1
+  debug:
     var: result
