@@ -1,0 +1,6 @@
+- name: test 1
+  command: ls
+  register: result
+  
+- name: debug 1
+    var: result
