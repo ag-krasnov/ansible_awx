@@ -1,7 +1,7 @@
-- name: test 1
-  command: ls
-  register: result
+#- name: test 1
+#  command: ls
+#  register: result
   
-- name: debug 1
+- name: debug 2
   debug:
-    var: result
+    msg: "debug2 {{ my_var1 }}"
