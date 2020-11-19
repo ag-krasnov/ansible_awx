@@ -1,0 +1,3 @@
+- src: git@gitlab.it-serv.ru:deployment/awx_roles/common.dummy_network.git
+  scm: git
+  name: common.dummy_network
