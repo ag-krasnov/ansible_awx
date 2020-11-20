@@ -2,7 +2,7 @@
   become: true
   vars:
     cdn_name: consul0
-    consul_group_name: all
+    consul_group_name: group_consul
     consul_version: 1.5.2
     consul_iface: eth0
     consul_datacenter: dc
@@ -16,7 +16,7 @@
     consul_dnsmasq_listen_addresses:
       - 127.0.0.1
       - 169.254.1.1
-    consul_node_rule: server
+    consul_node_role: server
     consul_boostrap_expect: true
   roles:
     - common.consul
