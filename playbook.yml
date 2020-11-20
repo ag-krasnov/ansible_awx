@@ -1,3 +1,6 @@
 - hosts: all
+  become: true
+  vars:
+    cdn_name: consul0
   roles:
-    - common.dummy_network
+    - common.consul
