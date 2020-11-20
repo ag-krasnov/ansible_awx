@@ -16,5 +16,7 @@
     consul_dnsmasq_listen_addresses:
       - 127.0.0.1
       - 169.254.1.1
+    consul_node_rule: server
+    consul_boostrap_expect: true
   roles:
     - common.consul
